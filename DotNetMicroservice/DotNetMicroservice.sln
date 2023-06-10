@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E94C4D9-66FA-4B65-9BAC-DF7EB48E6E81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7A5D501E-E1F2-4278-BD9E-4FAC94829789}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{EB090EB3-A2BB-47D0-A2A0-1FCF4CB00AA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Api", "Catalog.Api\Catalog.Api.csproj", "{740A52F7-3541-4ED5-BBF3-D292756518B0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2CA2C7C0-002E-49A5-B4F9-0C459062D333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{740A52F7-3541-4ED5-BBF3-D292756518B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740A52F7-3541-4ED5-BBF3-D292756518B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740A52F7-3541-4ED5-BBF3-D292756518B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740A52F7-3541-4ED5-BBF3-D292756518B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA2C7C0-002E-49A5-B4F9-0C459062D333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA2C7C0-002E-49A5-B4F9-0C459062D333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA2C7C0-002E-49A5-B4F9-0C459062D333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA2C7C0-002E-49A5-B4F9-0C459062D333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A5D501E-E1F2-4278-BD9E-4FAC94829789} = {3E94C4D9-66FA-4B65-9BAC-DF7EB48E6E81}
+		{EB090EB3-A2BB-47D0-A2A0-1FCF4CB00AA2} = {7A5D501E-E1F2-4278-BD9E-4FAC94829789}
+		{740A52F7-3541-4ED5-BBF3-D292756518B0} = {EB090EB3-A2BB-47D0-A2A0-1FCF4CB00AA2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {485E29BF-0460-4CF7-B5F2-28360D67D5C8}
+	EndGlobalSection
+EndGlobal
