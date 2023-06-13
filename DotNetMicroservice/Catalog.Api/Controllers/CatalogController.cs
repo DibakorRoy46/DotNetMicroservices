@@ -88,5 +88,6 @@ namespace Catalog.Api.Controllers
         {
             return Ok(await _productRepository.DeleteProductAsync(productId));
         }
+
     }
 }
